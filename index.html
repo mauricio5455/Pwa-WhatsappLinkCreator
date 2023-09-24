@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Gerador de Link Whatsapp</title>
 </head>
 <body>
     <main>
         <div id="info">
-            <h1>Envie uma mensagem direta à alguém, ou crie seu link de contato!</h1>
+            <h1>Crie um link ou evie uma mensagem direta!</h1>
         </div>
         <div id="content">
+            <div id="switch">
+                <button class="switchbtn">Criar Link</button>
+                <button class="switchbtn">Mensagem Direta</button>
+            </div>
             <div id="clink">
-                <label for="cnmr"><span id="txtCampo">Número de telefone</span></label>
-                <input type="text" pattern="^(1[1-9]|[4689][0-9]|2[12478]|3([1-5]|[7-8])|5([13-5])|7[193-7])9[0-9]{8}$" name="numero" id="cnmr">
+                <div id="formContainer">
+                    <label for="cnmr"><span class="txtCampo"><p>Número de telefone:</p></span></label>
+                    <input type="text" class="mainInput" name="numero" placeholder="Digite seu número de telefone" id="cnmr">
+                    
+                    <label for="cmsg"><span class="txtCampo"><p>Mensagem (Opcional):</p></span></label>
+                    <input id="cmsg" type="text" class="mainInput" name="mensagem" placeholder="Digite a mensagem" id="cmsg">
+                </div>
             </div>
         </div>
     </main>
