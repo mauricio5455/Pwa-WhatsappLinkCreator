@@ -1,26 +1,4 @@
-:root {
-    --priry: #5948cc;
-    --onAll: #ffffff;
-    --secundary: #5f5c71;
-    --tertiary: #7c5266;
-    --error: #ba1a1a;
-    --background: #fffbff;
-    --onBackground: #1c1b21;
-    --outline: #78777f;
-
-    --primaryContainer: #e4dfff;
-    --onPrimaryContainer: #160067;
-    --secundaryContainer: #e5dffb;
-    --onSecundaryContainer: #1b1a2c;
-    --tertiaryContainer: #fed8e7;
-    --onTertiaryContainer: #301121;
-    --errorContainer: #ffdad9;
-    --onErrorContainer: #420002;
-    --surface: #fffbff;
-    --onSurface: #1c1b21;
-    --surfaceVariant: #e4e1ec;
-    --onSurfaceVariant: #47464e;
-}
+@import url("/dsign/colors.css");
 
 * {
     margin: 0;
@@ -73,7 +51,6 @@ main {
     background-color: var(--tertiaryContainer);
     padding: 5%;
     border-radius: 10px;
-    box-shadow: black 2px  solid;
     box-shadow: 0px 0px 10px rgba(62, 78, 76, 0.233);
 }
 
