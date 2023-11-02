@@ -9,7 +9,7 @@ export default class CriarLink {
        
         if(!(/^[0-9]+$/.test(number))) return {link: false, status: 'Nam'};
 
-        let link = `https://api.whatsapp.com/send?phone=55${number}&text=${messange ? messange : ''}`
+        let link = `https://api.whatsapp.com/send?phone=55${number}&text=${messange ? messange : ''}`.replace(' ', '%20');
 
         return {link: link, status: 'ok'};
     }

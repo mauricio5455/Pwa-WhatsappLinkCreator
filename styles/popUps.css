@@ -31,6 +31,7 @@
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(62, 78, 76, 0.233);
     animation: LtoB .2s none ease;
+    max-width: 500px;
 }
 
 #linkContainer h1{
@@ -89,6 +90,7 @@
     border-radius: 10px;
     border: 2px solid rgb(183, 255, 141);
     font-family: sans-serif;
+    max-width: 600px;
 }
 
 /* Animações */
